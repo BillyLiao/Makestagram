@@ -11,6 +11,8 @@
 		5145782A1D91164D00F6B3A1 /* FriendSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514578291D91164D00F6B3A1 /* FriendSearchViewController.swift */; };
 		5145782C1D91169E00F6B3A1 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145782B1D91169E00F6B3A1 /* TimelineViewController.swift */; };
 		514578311D911E0000F6B3A1 /* PhotoTakingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514578301D911E0000F6B3A1 /* PhotoTakingHelper.swift */; };
+		514578341D96510400F6B3A1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514578331D96510400F6B3A1 /* Post.swift */; };
+		514578381D9674E200F6B3A1 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514578371D9674E200F6B3A1 /* PostTableViewCell.swift */; };
 		62551B961B06C2F5000913E4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B951B06C2F5000913E4 /* Social.framework */; };
 		62551B981B06C2FD000913E4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B971B06C2FD000913E4 /* Accounts.framework */; };
 		62551B9A1B06C31F000913E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B991B06C31F000913E4 /* CoreLocation.framework */; };
@@ -68,6 +70,8 @@
 		514578291D91164D00F6B3A1 /* FriendSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchViewController.swift; sourceTree = "<group>"; };
 		5145782B1D91169E00F6B3A1 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		514578301D911E0000F6B3A1 /* PhotoTakingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTakingHelper.swift; sourceTree = "<group>"; };
+		514578331D96510400F6B3A1 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		514578371D9674E200F6B3A1 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		62551B951B06C2F5000913E4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		62551B971B06C2FD000913E4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		62551B991B06C31F000913E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -144,6 +148,30 @@
 				514578301D911E0000F6B3A1 /* PhotoTakingHelper.swift */,
 			);
 			path = PhotoTaking;
+			sourceTree = "<group>";
+		};
+		514578321D9650EB00F6B3A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				514578331D96510400F6B3A1 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		514578351D9674C800F6B3A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				514578361D9674C800F6B3A1 /* Timeline */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		514578361D9674C800F6B3A1 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				514578371D9674E200F6B3A1 /* PostTableViewCell.swift */,
+			);
+			path = Timeline;
 			sourceTree = "<group>";
 		};
 		62551B621B06BF33000913E4 /* Frameworks */ = {
@@ -229,6 +257,8 @@
 		62C8C1E21B06BD6500DC3EA7 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				514578351D9674C800F6B3A1 /* Views */,
+				514578321D9650EB00F6B3A1 /* Models */,
 				5145782F1D911D3500F6B3A1 /* PhotoTaking */,
 				6277189C1B0A58E800AF5C6E /* Helpers */,
 				627718811B0A581600AF5C6E /* ViewControllers */,
@@ -430,7 +460,9 @@
 			files = (
 				62C8C1E81B06BD6500DC3EA7 /* ViewController.swift in Sources */,
 				5145782A1D91164D00F6B3A1 /* FriendSearchViewController.swift in Sources */,
+				514578381D9674E200F6B3A1 /* PostTableViewCell.swift in Sources */,
 				627718901B0A581600AF5C6E /* Filter.swift in Sources */,
+				514578341D96510400F6B3A1 /* Post.swift in Sources */,
 				514578311D911E0000F6B3A1 /* PhotoTakingHelper.swift in Sources */,
 				627718A01B0A58E800AF5C6E /* ParseLoginHelper.swift in Sources */,
 				627718911B0A581700AF5C6E /* FilterCollectionViewCell.swift in Sources */,
