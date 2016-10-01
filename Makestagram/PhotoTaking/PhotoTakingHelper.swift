@@ -68,3 +68,5 @@ extension PhotoTakingHelper: UIImagePickerControllerDelegate, UINavigationContro
         viewController.dismissViewControllerAnimated(true, completion: nil)
     }
 }
+
+

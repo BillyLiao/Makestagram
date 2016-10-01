@@ -7,9 +7,9 @@ PODS:
   - Bolts/Tasks (1.8.4)
   - Bond (4.3.1)
   - ConvenienceKit (0.4.0)
-  - FBSDKCoreKit (4.15.1):
+  - FBSDKCoreKit (4.16.0):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.15.1):
+  - FBSDKLoginKit (4.16.0):
     - FBSDKCoreKit
   - Parse (1.14.2):
     - Bolts/Tasks (~> 1.8)
@@ -34,8 +34,8 @@ SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   Bond: 55903fc67f09e8e49791a657163cabba1d6fb29d
   ConvenienceKit: ba1ad8797897dc0d011676e961a2f3e9b270c841
-  FBSDKCoreKit: fc7fa53d16b095ee3fd53f0cd59f1df8bcbb634d
-  FBSDKLoginKit: 073f79b3b2e762fc6f54a283fe15f45372d59f5f
+  FBSDKCoreKit: 7a6baaed4a2b2a244ba253346713bdbc74df135b
+  FBSDKLoginKit: 9a514a55a7d05190f64d4ef09502737588b5b561
   Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
   ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
   ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
