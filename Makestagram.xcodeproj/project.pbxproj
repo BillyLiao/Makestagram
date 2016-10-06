@@ -15,6 +15,7 @@
 		514578381D9674E200F6B3A1 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514578371D9674E200F6B3A1 /* PostTableViewCell.swift */; };
 		5145783A1D9678FB00F6B3A1 /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514578391D9678FB00F6B3A1 /* ParseHelper.swift */; };
 		5163D73E1D9CC34800E19784 /* FriendSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5163D73D1D9CC34800E19784 /* FriendSearchTableViewCell.swift */; };
+		51BDCA8C1DA5F31100903C22 /* PostSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BDCA8B1DA5F31100903C22 /* PostSectionHeaderView.swift */; };
 		62551B961B06C2F5000913E4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B951B06C2F5000913E4 /* Social.framework */; };
 		62551B981B06C2FD000913E4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B971B06C2FD000913E4 /* Accounts.framework */; };
 		62551B9A1B06C31F000913E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B991B06C31F000913E4 /* CoreLocation.framework */; };
@@ -76,6 +77,7 @@
 		514578371D9674E200F6B3A1 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		514578391D9678FB00F6B3A1 /* ParseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
 		5163D73D1D9CC34800E19784 /* FriendSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchTableViewCell.swift; sourceTree = "<group>"; };
+		51BDCA8B1DA5F31100903C22 /* PostSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSectionHeaderView.swift; sourceTree = "<group>"; };
 		62551B951B06C2F5000913E4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		62551B971B06C2FD000913E4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		62551B991B06C31F000913E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				514578371D9674E200F6B3A1 /* PostTableViewCell.swift */,
+				51BDCA8B1DA5F31100903C22 /* PostSectionHeaderView.swift */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				5145782A1D91164D00F6B3A1 /* FriendSearchViewController.swift in Sources */,
 				514578381D9674E200F6B3A1 /* PostTableViewCell.swift in Sources */,
 				627718901B0A581600AF5C6E /* Filter.swift in Sources */,
+				51BDCA8C1DA5F31100903C22 /* PostSectionHeaderView.swift in Sources */,
 				514578341D96510400F6B3A1 /* Post.swift in Sources */,
 				514578311D911E0000F6B3A1 /* PhotoTakingHelper.swift in Sources */,
 				627718A01B0A58E800AF5C6E /* ParseLoginHelper.swift in Sources */,

@@ -9,7 +9,7 @@ target 'Makestagram' do
 	pod ‘Parse’
 	pod ‘ParseFacebookUtilsV4’
 	pod ‘ParseUI’
-
+	pod ’DateTools’
 end
 
 target 'MakestagramTests' do
